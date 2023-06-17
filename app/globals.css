@@ -2,26 +2,113 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer components {
+  .heading-regular-h6 {
+    @apply text-heading-regular-h6 font-normal font-montserrat;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  .heading-regular-h5 {
+    @apply text-heading-regular-h5 font-normal font-montserrat;
+  }
+  .heading-regular-h4 {
+    @apply text-heading-regular-h4 font-normal font-montserrat;
+  }
+  .heading-regular-h3 {
+    @apply text-heading-regular-h3 font-normal font-montserrat;
+  }
+  .heading-regular-h2 {
+    @apply text-heading-regular-h2 font-normal font-montserrat;
+  }
+  .heading-regular-h1 {
+    @apply text-heading-regular-h1 font-normal font-montserrat;
+  }
+  .heading-medium-h6 {
+    @apply text-heading-medium-h6 font-medium font-montserrat;
+  }
+  .heading-medium-h5 {
+    @apply text-heading-medium-h5 font-medium font-montserrat;
+  }
+  .heading-medium-h4 {
+    @apply text-heading-medium-h4 font-medium font-montserrat;
+  }
+  .heading-medium-h3 {
+    @apply text-heading-medium-h3 font-medium font-montserrat;
+  }
+  .heading-medium-h2 {
+    @apply text-heading-medium-h2 font-medium font-montserrat;
+  }
+  .heading-medium-h1 {
+    @apply text-heading-medium-h1 font-medium font-montserrat;
+  }
+  .heading-bold-h8 {
+    @apply text-heading-bold-h8 font-bold font-montserrat;
+  }
+  .heading-bold-h7 {
+    @apply text-heading-bold-h7 font-bold font-montserrat;
+  }
+  .heading-bold-h6 {
+    @apply text-heading-bold-h6 font-bold font-montserrat;
+  }
+  .heading-bold-h5 {
+    @apply text-heading-bold-h5 font-bold font-montserrat;
+  }
+  .heading-bold-h4 {
+    @apply text-heading-bold-h4 font-bold font-montserrat;
+  }
+  .heading-bold-h3 {
+    @apply text-heading-bold-h3 font-bold font-montserrat;
+  }
+  .heading-bold-h2 {
+    @apply text-heading-bold-h2 font-bold font-montserrat;
+  }
+  .heading-bold-h1 {
+    @apply text-heading-bold-h1 font-bold font-montserrat;
+  }
+  .body-regular-xs {
+    @apply text-body-regular-xs font-normal font-montserrat;
+  }
+  .body-regular-s {
+    @apply text-body-regular-s font-normal font-montserrat;
+  }
+  .body-regular-md {
+    @apply text-body-regular-md font-normal font-montserrat;
+  }
+  .body-regular-l {
+    @apply text-body-regular-l font-normal font-montserrat;
+  }
+  .body-regular-xl {
+    @apply text-body-regular-xl font-normal font-montserrat;
+  }
+  .body-regular-xxl {
+    @apply text-body-regular-xxl font-normal font-montserrat;
+  }
+  .body-medium-xs {
+    @apply text-body-medium-xs font-medium font-montserrat;
+  }
+  .body-medium-s {
+    @apply text-body-medium-s font-medium font-montserrat;
+  }
+  .body-medium-md {
+    @apply text-body-medium-md font-medium font-montserrat;
+  }
+  .body-medium-l {
+    @apply text-body-medium-l font-medium font-montserrat;
+  }
+  .body-medium-xl {
+    @apply text-body-medium-xl font-medium font-montserrat;
+  }
+  .body-medium-xxl {
+    @apply text-body-medium-xxl font-medium font-montserrat;
+  }
+  .body-bold-md {
+    @apply text-body-bold-md font-bold font-montserrat;
+  }
+  .body-bold-l {
+    @apply text-body-bold-l font-bold font-montserrat;
+  }
+  .body-bold-xl {
+    @apply text-body-bold-xl font-bold font-montserrat;
+  }
+  .body-bold-xxl {
+    @apply text-body-bold-xxl font-bold font-montserrat;
+  }
 }
