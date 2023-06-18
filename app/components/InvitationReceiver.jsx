@@ -7,6 +7,6 @@ export default function InvitationReceiver() {
 
   const to = toParams.get("to")
   return (
-    <p className="heading-bold-h5 lg:my-4 my-3">{to || "Penerima Undangan"}</p>
+    <p className="heading-bold-h5 md:my-4 my-3">{to || "Penerima Undangan"}</p>
   )
 }

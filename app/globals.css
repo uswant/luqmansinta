@@ -130,15 +130,44 @@ html {
   align-items: center;
   min-height: 100vh;
   padding-top: 35vh;
-  background-image: url("/images/bg-landing.png");
+  background-image: url("/images/bg-landing-v2.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.carousel-container {
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-description {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10rem;
+  width: 100%;
+  text-align: center;
+}
+
+.mask {
+  width: 100%;
+  object-fit: cover;
+}
+
+.events-card {
+  border-bottom-left-radius: 1rem !important;
+  border-bottom-right-radius: 1rem !important;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
 }
 
 /* Mobile styles */
 @media (max-width: 768px) {
   .landing-container {
     background-image: url("/images/bg-landing-mobile.png");
+  }
+  .carousel-container {
+    max-height: 75vh;
   }
 }

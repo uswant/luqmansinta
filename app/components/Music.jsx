@@ -28,7 +28,7 @@ const Music = ({ url }) => {
       <div className="items-end fixed z-50">
         <div className="my-6 ml-2 mx-auto ">
           {/*content*/}
-          <div className="border-0 rounded-full shadow-lg relative flex flex-col bg-white mb-2">
+          <div className="border-0 rounded-full shadow-lg relative flex flex-col bg-light-300 mb-2">
             {/*header*/}
             <div className="flex items-start justify-between p-2 ">
               <button
