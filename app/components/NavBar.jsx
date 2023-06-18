@@ -10,7 +10,7 @@ export default function NavBar() {
           type="button"
           className="inline-flex flex-col items-center justify-center px-5 hover:bg-primary-400 group"
         >
-          <Image src="/home.png" alt="Home" width={34} height={34} />
+          <Image src="/images/home.png" alt="Home" width={34} height={34} />
           <span className="sr-only">Home</span>
         </button>
         <button
@@ -18,7 +18,7 @@ export default function NavBar() {
           type="button"
           className="inline-flex flex-col items-center justify-center px-5 hover:bg-primary-400 group"
         >
-          <Image src="/couple.png" alt="Couple" width={34} height={34} />
+          <Image src="/images/couple.png" alt="Couple" width={34} height={34} />
           <span className="sr-only">Couple</span>
         </button>
         <button
@@ -26,7 +26,7 @@ export default function NavBar() {
           type="button"
           className="inline-flex flex-col items-center justify-center px-5 hover:bg-primary-400 group"
         >
-          <Image src="/event.png" alt="Event" width={34} height={34} />
+          <Image src="/images/event.png" alt="Event" width={34} height={34} />
           <span className="sr-only">Event</span>
         </button>
         <button
@@ -34,7 +34,7 @@ export default function NavBar() {
           type="button"
           className="inline-flex flex-col items-center justify-center px-5 hover:bg-primary-400 group"
         >
-          <Image src="/moment.png" alt="Home" width={34} height={34} />
+          <Image src="/images/moment.png" alt="Home" width={34} height={34} />
           <span className="sr-only">Settings</span>
         </button>
         <button
@@ -42,7 +42,7 @@ export default function NavBar() {
           type="button"
           className="inline-flex flex-col items-center justify-center px-5 hover:bg-primary-400 group"
         >
-          <Image src="/rsvp.png" alt="Home" width={34} height={34} />
+          <Image src="/images/rsvp.png" alt="Home" width={34} height={34} />
           <span className="sr-only">Profile</span>
         </button>
       </div>

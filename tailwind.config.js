@@ -35,6 +35,7 @@ module.exports = {
     },
     fontFamily: {
       montserrat: "var(--font-montserrat)",
+      charlotte: "var(--font-charlotte)",
     },
     fontSize: {
       "heading-regular-h6": [

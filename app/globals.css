@@ -112,3 +112,37 @@
     @apply text-body-bold-xxl font-bold font-montserrat;
   }
 }
+
+* {
+  /* outline: 1px solid #f00 !important; */
+}
+
+html {
+  font-family: var(--font-montserrat);
+}
+
+.landing-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 35vh;
+  background-image: url("/images/bg-landing.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .landing-container {
+    background-image: url("/images/bg-landing-mobile.png");
+  }
+}
